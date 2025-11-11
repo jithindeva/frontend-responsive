@@ -16,7 +16,7 @@ const Materials = () => {
             environment, using very expensive and famous capital but at a
             relatively lower price.
           </p>
-          <a href="#">More Info →</a>
+          <button href="#">More Info →</button>
         </div>
 
         <div className="materials-right">

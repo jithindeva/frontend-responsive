@@ -72,7 +72,7 @@ const BestSelling = () => {
           ))}
         </div>
 
-        <a href="#" className="view-all">View All →</a>
+        <button href="#" className="view-all">View All →</button>
       </div>
     </section>
   );

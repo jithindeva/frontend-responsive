@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
               You can get a workspace of the highest quality at an affordable price
               and still enjoy the facilities that are here.
             </p>
-            <a href="#">More Info →</a>
+            <button href="#">More Info →</button>
           </div>
 
           <div className="why-card">
@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
               We provide many unique workspace choices so that you can choose
               the workspace to your liking.
             </p>
-            <a href="#">More Info →</a>
+            <button href="#">More Info →</button>
           </div>
         </div>
       </div>

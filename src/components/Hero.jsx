@@ -12,10 +12,10 @@ const Hero = () => {
         <header className="hero-navbar">
           <h2 className="hero-logo">Panto</h2>
           <nav className="hero-nav">
-            <a href="#furniture">Furniture</a>
-            <a href="#shop">Shop</a>
-            <a href="#about">About Us</a>
-            <a href="#contact">Contact</a>
+            <button href="#furniture">Furniture</button>
+            <button href="#shop">Shop</button>
+            <button href="#about">About Us</button>
+            <button href="#contact">Contact</button>
           </nav>
           <div className="hero-cart">🛒</div>
         </header>

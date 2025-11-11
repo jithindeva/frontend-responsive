@@ -18,7 +18,7 @@ const Experience = () => {
             with an elegant and luxurious style and with premium quality
             materials.
           </p>
-          <a href="#">More Info →</a>
+          <button href="#">More Info →</button>
         </div>
       </div>
     </section>
