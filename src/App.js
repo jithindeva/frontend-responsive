@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Hero from './components/Hero';
+import WhyChooseUs from './components/WhyChooseUs';
+import BestSelling from './components/BestSelling';
+import Experience from './components/Experience';
+import Materials from './components/Materials';
+import Testimonials from './components/Testimonials';
+import Footer from './components/Footer'; // ✅ import
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <WhyChooseUs />
+      <BestSelling />
+      <Experience />
+      <Materials />
+      <Testimonials />
+      <Footer />  {/* ✅ add this */}
+    </>
   );
 }
 
